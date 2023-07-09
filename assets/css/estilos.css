@@ -1,0 +1,60 @@
+*{
+    text-align: center;
+}
+
+body{
+    background: #4e4d4d;
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+    width:100vw;
+}
+
+.nav{
+    padding: 2rem;
+    border-right: solid 1px white;
+}
+
+nav section {    
+    width: 80%;
+    min-width: 10rem;
+    margin: 2rem;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+
+}
+
+/* Propiedades */
+
+.propiedades {
+    padding: 0px 5%;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px
+    
+}
+.propiedad{ 
+    margin: auto;
+    background: rgba(255, 255, 255, 0.068);
+    box-shadow: 0px 0px 7px 1px rgba(255, 255, 255, 0.39);
+}
+
+.imagen img {
+    width: 200px;
+    height: 150px;
+
+}
+.propiedad .detalles{
+    padding: 8px 8px;
+}
+
+.propiedad .detalles p{
+    margin: 0px;
+    text-align: center;
+    font-size: 14px;
+}
